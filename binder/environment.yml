@@ -1,4 +1,5 @@
-name: megl3-genet
+name: variant-call-annot
+# from template megl3-genet
 # from template plasmabio-template-python
 # with elements from https://github.com/pierrepo/plasma-env-cleblond-score-polygen.git
 # and other elements from https://github.com/Scaburet/m1meg-gh-polygen.git
@@ -39,22 +40,17 @@ dependencies:
     # Jupyter-package-manager not compatible with the current JupyterLab <4
     #- jupyter-package-manager
     #- liftover>=1.1.13,<=1.3.1
-    #- pyarrow==16.0.0
-    #- Cython<3.1
-    #- ldsc==2.0.1
-    #- pybedtools==0.11.0
-    #- polars==1.34.0
-    #- scikit-allel==1.3.8
-    #- statsmodels==0.14.5
-    #- statannotations>=0.4.2
     - cyvcf2==0.31.4
     # Print module version
     - watermark
-  # For the L3 Genet Euk course:
+  # For the mapping/variant calling/variant annotation practical courses:
   - fastqc==0.12.1
+  - multiqc=1.13
+  - fastp=0.23.1
   - bwa-mem2==2.2.1
   - samtools==1.21
+  - qualimap=2.2.2b
   - bcftools==1.22
   - htslib==1.22.1
-  # For the L3 GH practical course:
-  - merlin=1.1.2
+  - subread=2.0.6
+  - ensembl-vep
