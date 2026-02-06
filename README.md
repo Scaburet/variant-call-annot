@@ -1,13 +1,13 @@
 # Repo pour Variant Calling et Variant Annotation
 
-Pour construction d'environnements sur PlasmaBio adenine
-dédiés : 
-QC des fastq
-mapping (bwa_mem2)
-qualimap
-gestion des bam (samtools)
-variant calling (bcftools)
-annotation des variants (VEP)
+Pour construction d'environnements sur PlasmaBio adenine   
+dédiés :   
+QC des fastq   
+mapping (bwa_mem2)   
+qualimap   
+gestion des bam (samtools)    
+variant calling (bcftools)   
+annotation des variants (VEP)    
 
 Mis en place février 2026 pour l'UE PIR G9.
 
